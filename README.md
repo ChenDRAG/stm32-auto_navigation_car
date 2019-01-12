@@ -9,7 +9,7 @@ This is the controlling board source code for the EDC20, THU championship team A
   
 This part includes Sensor Data Acquiring, filtering and Fusion, a Four-stage PID controlling strategy, Usart commuciation with the Strategy borad, and bluetooth communication with smartphone and laptop, etc.The controlling board allows the car to be controlled by both computer ,smartphone and the strategyboard, and has 3 different modes(hardware PID debug mode,strategy debug mode and competition mode).The state of the car can be monitered with a RGBled and your smartphone(based on APPs that can be commonly found on the internet, links provided later).
 
-This hardware used is a stm32rct6 board(and another stm32rct6 board for strategy).
+The hardware used is a stm32rct6 board(and another stm32rct6 board for strategy).
 
 ## Folder Details
 The detailed contents about the files is as follows:  
@@ -19,6 +19,11 @@ The detailed contents about the files is as follows:
 - /STM32F10x_FWLib conatins the offical hardware library of stm32 board,which we use a lot in our project.
 - /SYSTEM contains some most basic functions,like delay function or usart communication implementation.
 - /USER contain the main logic function.
+
+## Notice
+The structure of the code is based on the miniBalance project with an open_source permission, and our 
+Communication Coding makes it easy for the car to communicate with the APP 'MiniBalance',which can be 
+downloaded here:https://cloud.tsinghua.edu.cn/d/2239dcf7c8164cbfb2b0/.
 
 ## Author
 Chen Huayu
