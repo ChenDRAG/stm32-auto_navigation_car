@@ -9,14 +9,15 @@ map of the city is like:
 ![Failed to load the image](https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/map.jpg)
 
 For the detailed rule of the EDC20 game, See :  
-https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/EDC20_rules(Chinese).pdf
+[Detailed Rules](https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/EDC20_rules(Chinese).pdf)
 
 For the chinese report of our team, see:   
-https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/EDC20_A_star_report_Chinese_version.pdf
+[Report (Chinese)](https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/EDC20_A_star_report_Chinese_version.pdf)
 
 # EDC20_Team_A_star_controlling_part
     
-This is the controlling board source code for the EDC20, THU championship team A_star, mainly implemented by ChenHuayu.For the Strategy part please see:(To be updated)
+This is the controlling board source code for the EDC20, THU championship team A_star, mainly implemented by ChenHuayu.For the Strategy part please see:
+[Strategy Board](https://github.com/Wuziyi616/EDC20_Team_A_star_strategy_part)
   
 This part includes Sensor Data Acquiring, filtering and Fusion, a Four-stage PID controlling strategy, Usart commuciation with the Strategy borad, and bluetooth communication with smartphone and laptop, etc. The controlling board allows the car to be controlled by both computer, smartphone and the strategyboard, and has 3 different modes(hardware PID debug mode, strategy debug mode and competition mode). The state of the car can be monitered with a RGBled and your smartphone(based on APPs that can be commonly found on the internet, links provided later).
 
@@ -40,7 +41,7 @@ folder and compile the code yourself.)
 The structure of the code is based on the miniBalance project with an open_source permission, and our 
 Communication Coding makes it easy for the car to communicate with the APP 'MiniBalance', which can be 
 downloaded here:   
-https://cloud.tsinghua.edu.cn/d/2239dcf7c8164cbfb2b0/.
+[MiniBalance App](https://cloud.tsinghua.edu.cn/d/2239dcf7c8164cbfb2b0/.)
 
 ## Author
 Chen Huayu  
@@ -54,7 +55,7 @@ chenhuay17@mails.tsinghua.edu.cn
 - Wu Ziyi
 
 For brief introduction of the team, see:  
-https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/edc20_A_star_members.pdf
+[Team Introduction (Chinese)](https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/edc20_A_star_members.pdf)
 
 ![Failed to load the image](https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/logo.jpg)
 ![Failed to load the image](https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/EDC20.jpg)
