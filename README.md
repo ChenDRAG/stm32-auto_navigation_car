@@ -29,10 +29,12 @@ The hardware used is a stm32rct6 board(and another stm32rct6 board for strategy)
 The detailed contents about the files is as follows:  
 - /BALANCE         contains the impletation of filtering, debug, PID controlling, etc. 
 - /HARDWARE        contains hardware drivers and basic data processing implementation. 
-- /OBJ             conatins some Compiled files.
+- /OBJ             conatins some Compiled files.  
 - /STM32F10x_FWLib conatins the offical hardware library of stm32 board,which we use a lot in our project.
 - /SYSTEM          contains some most basic functions,like delay function or usart communication implementation.
 - /USER            contain the main logic function.
+(Note that because of some problems, the obj files in the OBJ folder are not complete. Feel free to empty the OBJ 
+folder and compile the code yourself.)
 
 ## Notice
 The structure of the code is based on the miniBalance project with an open_source permission, and our 
