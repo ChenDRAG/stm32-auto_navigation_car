@@ -1,7 +1,7 @@
 # stm32-auto_navigation_car
 Code repository for the auto_navigation_car based on stm32. Contributed by the team A_star(champion team of the 20th Tsinghua University Electronic Design Competition)  
 
-Basically our car can navigate itself arcoss a virtual city and obeying some "traffic rules". Given multiple starting points and ending points and their corresponding awards at the same time, the car can calculate the 'best route'. Our design can do this task with great effiency and speed, and has distinguished itself from other 95 teams from Tsinghua university by winning the championship. 
+Basically our car can navigate itself arcoss a virtual city obeying some "traffic rules". Given multiple starting points and ending points(Passengers) and their corresponding awards(Prize money) at the same time, the car can calculate the 'best route' like a taxi. Our design can do this task with great effiency and speed, and has distinguished itself from other 95 teams from Tsinghua university by winning the championship. 
 
 ![Failed to load the image](https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/group_photo.jpg)
 
