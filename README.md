@@ -18,9 +18,9 @@ https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/EDC20_A_star_r
     
 This is the controlling board source code for the EDC20, THU championship team A_star, mainly implemented by ChenHuayu.For the Strategy part please see:(To be updated)
   
-This part includes Sensor Data Acquiring, filtering and Fusion, a Four-stage PID controlling strategy, Usart commuciation with the Strategy borad, and bluetooth communication with smartphone and laptop, etc.The controlling board allows the car to be controlled by both computer ,smartphone and the strategyboard, and has 3 different modes(hardware PID debug mode, strategy debug mode and competition mode). The state of the car can be monitered with a RGBled and your smartphone(based on APPs that can be commonly found on the internet, links provided later).
+This part includes Sensor Data Acquiring, filtering and Fusion, a Four-stage PID controlling strategy, Usart commuciation with the Strategy borad, and bluetooth communication with smartphone and laptop, etc. The controlling board allows the car to be controlled by both computer, smartphone and the strategyboard, and has 3 different modes(hardware PID debug mode, strategy debug mode and competition mode). The state of the car can be monitered with a RGBled and your smartphone(based on APPs that can be commonly found on the internet, links provided later).
 
-The hardware used is a stm32rct6 board(and another stm32rct6 board for strategy).
+The hardware used is a stm32rct6 board(and another stm32rct6 board for strategy part).
 
 ![Failed to load the image](https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/car2.jpg)
 
