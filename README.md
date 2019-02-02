@@ -9,7 +9,7 @@ map of the city is like:
 ![Failed to load the image](https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/map.jpg)
 
 For the detailed rule of the EDC20 game, See :  
-[Detailed Rules](https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/EDC20_rules(Chinese).pdf)
+[Detailed Rules (Chinese)](https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/EDC20_rules(Chinese).pdf)
 
 For the chinese report of our team, see:   
 [Report (Chinese)](https://github.com/ChenDRAG/stm32-auto_navigation_car/blob/master/EDC20_A_star_report_Chinese_version.pdf)
